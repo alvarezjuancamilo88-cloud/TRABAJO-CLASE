@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ titulo }}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #74b9ff, #81ecec);
+            color: #2d3436;
+            text-align: center;
+            padding-top: 50px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            background-color: #0984e3;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+        a:hover {
+            background-color: #74b9ff;
+        }
+    </style>
+</head>
+<body>
+    <h1>{{ mensaje }}</h1>
+    <p>Esta es una página de ejemplo hecha con Flask 🚀</p>
+    <a href="/sobre">Ir a la página "Sobre Nosotros"</a>
+</body>
+</html>
